@@ -6,12 +6,14 @@ import { ThemeModule } from '../../@theme/theme.module';
 import { NgSelectModule } from '@ng-select/ng-select';
 import { FormsModule } from '@angular/forms';
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
+import { FeedbackCrudComponent } from './feedback-crud/feedback-crud.component';
 
 
 
 @NgModule({
   declarations: [
-    FeedbackIndexComponent
+    FeedbackIndexComponent,
+    FeedbackCrudComponent
   ],
   imports: [
     CommonModule,
